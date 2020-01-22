@@ -1,0 +1,702 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+\documentclass[10pt,a4paper,classic]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+\usepackage{multibib}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% \setlength{\makecvtitlenamewidth}{12cm}
+% \renewcommand*{\namefont}{\fontsize{24}{29}\mdseries\upshape}
+
+% personal data
+\firstname{Prayush}
+\familyname{Kumar}
+\title{Curriculum Vit\ae{}}               % optional, remove the line if not wanted
+\address{604 Space Sciences Building\\ Cornell University\\}{Ithaca, NY 14853}    
+%\address{Department of Physics\\ 255 Physics Building\\}{Syracuse NY 13244}
+% optional, remove the line if not wanted
+%\mobile{+1 (315) 751 2007}                    
+\phone{+1 (571) 572 9243}                      
+%% \fax{fax (optional)}                          
+\email{prayush@astro.cornell.edu}
+\email{prayush.kumar@gmail.com}
+%\homepage{www.eggwall.com}                
+%% \extrainfo{additional information (optional)} 
+% \photo[64pt]{prayush_kumar.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%% \quote{Improve users' lives}                 
+%\extrainfo{Date of Birth: 2 September 1987}
+
+\newcommand\mybitem[1]{%
+   \parbox[t]{3mm}{\textbullet}\parbox[t]{\mylen}{#1}}
+\newcommand{\etal}{\textit{et al.}}
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%\nopagenumbers{} % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\fancyfoot[r]{\thepage}
+\makecvtitle
+
+% \section{Research Interests}
+% \cvline{}{Analytical and Numerical General Relativity, Gravitational-Wave Astronomy, Modeling of Compact Binaries of Black Holes and Neutron Stars, Application of Numerical Relativity to Gravitational Wave Astronomy, Development of detection search techniques for Gravitational-Wave Astronomy with advanced detectors}
+% \section{Purpose}
+% \cvline{}{Postdoctoral Fellowship at the Canadian Institute for Theoretical Astrophysics, University of Toronto.}{}{}{}{}
+\vspace*{-9mm}
+\section{Employment}
+\cventry{2017-- present}{Research Associate}{}{}{\newline Cornell Center for Astrophysics \& Planetary Science\newline Cornell University, Ithaca NY}{}
+
+\cventry{2014-- 2017}{CITA Postdoctoral Fellow}{}{}{\newline Canadian Institute for Theoretical Astrophysics\newline University of Toronto, Toronto ON}{}
+
+\cventry{June -- Aug 2016}{Visitor in Physics}{}{}{\newline International Center for Theoretical Sciences, Bangalore, India}{}
+
+\cventry{Dec 2015}{Visiting Scholar}{}{}{\newline Max Planck Institute for Gravitational Physics, Potsdam, Germany}{}
+
+\cventry{Nov -- Dec 2014}{Visiting Scholar}{}{}{\newline Max Planck Institute for Gravitational Physics, Potsdam, Germany}{}
+
+\cventry{2010--2014}{Research Assistant}{}{}{\newline LIGO Scientific Collaboration Group\newline Syracuse University, Syracuse NY}{}
+
+% \cventry{Feb 2013}{Predoctoral Visitor in Physics}{}{}{working with Prof. Harald P. Pfeiffer \newline Canadian Institute for Theoretical Astrophysics\newline University of Toronto, Toronto, ON}{}
+
+\cventry{Oct 2012}{Visitor in Physics}{}{}{\newline LIGO Lab and Theoretical Astrophysics and Relativity Group\newline California Institute of Technology, Pasadena, CA}{}
+
+\cventry{2009--2010}{Teaching Assistant}{}{}{\newline Syracuse University, Syracuse NY}{}
+
+\cventry{Jul --Dec 2008}{Visiting Scholar}{}{}{\newline Max Planck Institute for Gravitational Physics, Potsdam, Germany\newline Undergraduate thesis (Supervisors: Dr. Badri Krishnan and Dr. Edward Porter)}{}
+
+\cventry{Apr --Aug 2007}{Research Intern}{}{}{\newline Center for Ultrafast Laser Applications\newline Indian Institute of Science, Bangalore, India}{}
+
+% \section{Research Experience}
+% \cvline{2013--2014}{Developed a model that captures the complete coalescence process of intermediate mass-ratio
+% binaries, from the weak-field to strong-field gravity regime.}
+% \cvline{2012--2013}{Demonstrated the feasibility of using numerical relativity simulations as search templates with Advanced LIGO.\newline Led the search for low mass compact binaries for the NINJA-2 blind injection challenge.}
+% \cvline{2011--2012}{Investigated the effectualness of Post-Newtonian waveforms in Advanced LIGO searches.\newline Investigated the effect of sub-dominant waveform modes on the detectability of binaries.}
+% \cvline{2010--2011}{Explored the form of self-force for intermediate mass-ratio binaries, and developed an inspiral waveform model based on it. Developed a prescription for the shift of the innermost stable circular orbit frequency, for comparable to extreme mass-ratio binaries.}
+% \cvline{2009--2011}{Worked with the LIGO Scientific Collaboration to perform coherent searches for gravitational waves associated with Gamma-ray burst triggers from Swift and Fermi satellites.}
+% \cvline{2008}{Explored the possibility of increasing the accuracy of the post-Newtonian expression for energy flux, for extreme mass-ratio binaries, using LISA observations.}
+
+\section{Education}
+\cventry{2009--2014}{Doctor of Philosophy}{}{\newline Department of Physics, Syracuse University, Syracuse, NY}{\newline \textbf{Thesis:}
+\textit{Topics in Gravitational-wave Astrophysics}\newline\textbf{Supervisor:} Prof. Duncan A. Brown}{}
+
+\cventry{2005--2009}{Bachelor of Engineering (Hons.)}{}{\newline \textit{Electrical \& Electronics Engineering, With Distinction}\newline Birla Institute of Technology \& Science (BITS), Pilani, India}{\newline \textbf{Thesis:}
+\textit{Search for higher-order post Newtonian coefficients for energy flux through gravitational waves from black-hole binaries using LISA} [arXiv:1206.0915]\newline \textbf{Supervisor:} Dr. Badri Krishnan (AEI-Potsdam)}{}{}
+% \cventry{2005}{Indian School Certificate Examination}{Lucknow, India}{}{}{Class XII (ISC) - 93.25\%}
+% \cventry{2003}{Indian Council for Secondary Education}{Lucknow, India}{}{}{Class X (ICSE) - 92.80\%}
+
+
+
+\section{Awards}
+\cventry{2017}{Princess of Asturias Award for Scientific and Technical Research (shared with LIGO Scientific Collaboration)}{Fundación Príncipe de Asturias, Spain}{}{}{}
+\cventry{2016}{Gruber Cosmology Prize (shared with LIGO Scientific Collaboration)}{ Gruber Foundation}{}{}{}
+\cventry{2016}{Special Breakthrough Prize in Fundamental Physics (shared with LIGO Scientific Collaboration)}{\newline The Breakthrough Prize in Life Sciences}{}{}{}
+\cventry{2014}{CITA Fellowship}{Canadian Institute for Theoretical Astrophysics}{}{Toronto, ON}{}
+\cventry{2014}{Honorable Mention, GWIC and Braccini Thesis Prizes for a doctoral thesis on gravitational waves}{Gravitational Wave International Committee (GWIC)}{}{}{}
+\cventry{2013}{APS \& DAP Travel Award}{April Meeting}{}{Denver, CO}{}
+\cventry{2012}{Honorable Mention for APS sponsored best student talk}{15th East Coast Gravity Meeting}{Syracuse University}{Syracuse, NY}{Title: Model waveform templates to use to search for gravitational waves in Advanced LIGO era.}
+\cventry{2005}{Merit Scholarship}{BITS-Pilani}{Pilani, India}{}{Awarded in recognition of academic merit to 1\% of students.}
+\cventry{2004}{Ranked $2^{\mathrm{nd}}$ (state-wide) in Regional Mathematics Olympiad (U.P.)}{National Board for Higher Mathematics}{India}{}{}
+\cventry{2003}{Singapore Airlines Youth Scholarship}{Ministry of Education}{Singapore}{}{The scholarship was declined}
+\cventry{2003}{Awarded 2nd position in TECHNEX (All-India engineering model exhibition)}{Indian Institute of Technology}{Varanasi, India}{}{Project- Copper (I) Oxide Solar Cell.}
+\cventry{2003}{Kishore Vaigyanik Protsahana Yojana scholarship (Young Scientist 
+Award)}{Indian Institute of Science, Bangalore \& Department of Science \& 
+Technology}{India}{}{Awarded to 40 students selected nationally from India.}
+\cventry{2003}{National Talent Search scholarship}{National Council for Educational Research and Training (NCERT)}{India}{}{National award in recognition of academic merit}
+
+
+\section{Grants \& Proposals}
+\cventry{2017-18}{ComputeCanada Resource Allocation Competition Award}{  (Award value: $\$446.3$k; Proposal rated Outstanding; co-authored with Prof. Harald Pfeiffer \& members of the SXS Collaboration)}{}{}{}
+\cventry{2016-17}{ComputeCanada Research Platforms and Portals Competition Awards}{  (Award value: $\$173.5$k; Proposal on `Gravitational-wave Astrophysics on the Open Science Grid`, rated Very Strong; co-authored with Prof. Harald Pfeiffer)}{}{}{}
+\cventry{2016-17}{ComputeCanada Resource Allocation Competition Award}{  (Award value: $\$731.7$k; Proposal rated Outstanding; co-authored with Prof. Harald Pfeiffer \& members of the SXS Collaboration)}{}{}{}
+\cventry{2016-17}{CITA-LSC Annual Research Proposal}{  (co-authored with Prof.~Harald Pfeiffer \& Heather Fong)}{}{}{}
+\cventry{2015-16}{ComputeCanada Resource Allocation Competition Award}{  (Award value: $\$ 1.40$M; Proposal rated Outstanding; co-authored with Prof. Harald Pfeiffer \& members of the SXS Collaboration)}{}{}{}
+\cventry{2015-16}{Formal collaborator on an NSF Research in Undergraduate Institutions (RUI) grant, awarded to Prof.~Geoffrey Lovelace at California State University, Fullerton}{  (Award value: $\$ 126$k;)}{}{}{}
+\cventry{2015-16}{CITA-LSC Annual Research Proposal}{  (co-authored with Dr.~Kipp Cannon \&  Prof.~Harald Pfeiffer)}{}{}{}
+% 
+\cventry{2014-15}{ComputeCanada Resource Allocation Competition Award}{  (Award value $\$ 0.91$M; Proposal rated Outstanding; co-authored with Prof. Harald Pfeiffer \& members of the SXS Collaboration)}{}{}{}
+\cventry{2014-15}{CITA-LSC Annual Research Proposal}{  (co-authored with Dr.~Kipp Cannon \&  Prof.~Harald Pfeiffer)}{}{}{}
+
+
+
+\section{Publications\hspace{85mm} \small{[$h_\mathrm{HEP}-$index: \textbf{40}}]}
+% \hspace{2cm} [$h_\mathrm{HEP}-$index: \textbf{34}]
+
+\cvline{}{\textbf{\textit{Articles in preparation}}}
+% 
+% % \cvline{2016}{\textit{Constraining orbital eccentricity of compact binaries with Advanced LIGO}. Abhirup Ghosh, \textbf{Prayush Kumar}, E.~A. Huerta, Parameswaran Ajith}
+% 
+\cvline{2018}{\textit{Binary black hole mergers in harmonic coordinates}\newline \textbf{Prayush Kumar}, Harald P. Pfeiffer\newline}
+
+% 
+% \cvline{2016}{\textit{Increasing the accuracy of PhenomP Inspiral}. Sebastian Khan, Mark Hannam, \textbf{Prayush Kumar}, Carl-Johan Haster\newline}
+% 
+
+% ###################################################
+% ###################################################
+\cvline{}{\textbf{\textit{\textcolor{purple}{Articles in review}}}}
+% 
+
+\cvline{2019}{\textit{A guide to LIGO-Virgo detector noise and extraction of transient gravitational-wave signals}, arXiv:1908.11170 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{A gravitational-wave measurement of the Hubble constant following the second observing run of Advanced LIGO and Virgo}, arXiv:1908.06060 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{An Optically Targeted Search for Gravitational Waves emitted by Core-Collapse Supernovae during the First and Second Observing Runs of Advanced LIGO and Advanced Virgo}, arXiv:1908.03584 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{Model comparison from LIGO-Virgo data on GW170817's binary components and consequences for the merger remnant}, arXiv:1908.010122 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{Search for gravitational waves from Scorpius X-1 in the second Advanced LIGO observing run with an improved hidden Markov model}, arXiv:1906.12040 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{On the properties of the massive binary black hole merger GW170729}, arXiv:1903.06742 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{Tests of General Relativity with the Binary Black Hole Signals from the LIGO-Virgo Catalog GWTC-1}, arXiv:1903.04467 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{Searches for Continuous Gravitational Waves from Fifteen Supernova Remnants and Fomalhaut b with Advanced LIGO}, arXiv:1812.11656 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration \newline}
+
+
+
+% ###################################################
+% ###################################################
+\cvline{}{\textbf{\textit{\textcolor{purple}{Refereed Publications (including LIGO Scientific Collaboration papers to which Kumar has made a significant contribution)}}}\vspace{1mm} \newline \textcolor{darkgray}{\textbf{ [Citation count for articles are shown in sq. brackets adjacent to publication year] } }}{}{}{}
+
+\cvline{2019 [559]}{\textit{GWTC-1: A Gravitational-Wave Transient Catalog of Compact Binary Mergers Observed by LIGO and Virgo during the First and Second Observing Runs}, Phys. Rev. X 9, 031040 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019 [83]}{\textit{Tests of General Relativity with GW170817}, Phys. Rev. Lett. 123, 011102 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019 [255]}{\textit{Properties of the binary neutron star merger GW170817}, Phys. Rev. X 9, 011001\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019 [57]}{\textit{Matter imprints in waveform models for neutron star binaries: tidal and self-spin effects}, Phys. Rev. D 99, 0240295\newline Tim Dietrich, Sebastian Khan, Reetika Dudi, Shasvath J. Kapadia, \textbf{Prayush Kumar}, Alessandro Nagar, Frank Ohme, Francesco Pannarale, Anuradha Samajdar, Sebastiano Bernuzzi, Gregorio Carullo, Walter Del Pozzo,  Maria Haney, Charalampos Markakis, Michael P\"{u}rrer, Gunnar Riemenschneider, Yoshinta Eka Setyawati, Ka Wa Tsang, and Chris Van Den Broeck}
+
+\cvline{2019 [14]}{\textit{The SXS Collaboration catalog of binary black hole simulations}, Class. Quantum Grav. 36, 195006\newline
+Michael Boyle, Daniel Hemberger, Dante A.B. Iozzo, Geoffrey Lovelace, Serguei Ossokine, Harald P. Pfeiffer, Mark A. Scheel, Leo C. Stein, Charles J. Woodford, Aaron B. Zimmerman, Nousha Afshari, Kevin Barkett, Jonathan Blackman, Katerina Chatziioannou, Tony Chu, Nicholas Demos, Nils Deppe, Scott E. Field, Nils L. Fischer, Evan Foley, Heather Fong, Alyssa Garcia, Matthew Giesler, Francois Hebert, Ian Hinder, Reza Katebi, Haroon Khan, Lawrence E. Kidder, \textbf{Prayush Kumar}, Kevin Kuper, Halston Lim, Maria Okounkova, Teresita Ramirez, Samuel Rodriguez, Hannes R. Rüter, Patricia Schmidt, Bela Szilagyi, Saul A. Teukolsky, Vijay Varma, Marissa Walker}
+
+\cvline{2018 [387]}{\textit{GW170817: Measurements of neutron star radii and equation of state}, Phys. Rev. Lett. 121, 161101\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2018 [14]}{\textit{Constraining the parameters of GW150914 \& GW170104 with numerical relativity surrogates}, Phys. Rev. D 99, 124005\newline \textbf{Prayush Kumar}, Jonathan Blackman, Scott E. Field, Mark Scheel, Chad R. Galley, Michael Boyle, Lawrence E. Kidder, Harald P. Pfeiffer, Bela Szilagyi and Saul A. Teukolsky}
+
+\cvline{2018 [4]}{\textit{Detection and characterization of spin-orbit resonances in the advanced gravitational wave detectors era}, Phys. Rev. D 98, 083014\newline
+Chaitanya Afle, Anuradha Gupta, Bhooshan Gadre, \textbf{Prayush Kumar}, Nick Demos, Geoffrey Lovelace, Han Gil Choi, Hyung Mok Lee, Sanjit Mitra, Michael Boyle, Daniel A. Hemberger, Lawrence E. Kidder, Harald P. Pfeiffer, Mark A. Scheel, Bela Szilagyi}
+
+\cvline{2018 [40]}{\textit{Eccentric, nonspinning, inspiral, Gaussian-process merger approximant for the detection and characterization of eccentric binary black hole mergers}, Phys. Rev. D 97, 024031\newline
+E.~A. Huerta, C.~J. Moore, \textbf{Prayush Kumar}, Daniel George, Alvin J.~K. Chua, Roland Haas, Erik Wessel, Daniel Johnson, Derek Glennon, Adam Rebei, A.~Miguel Holgado, Jonathan R. Gair, Harald P. Pfeiffer}
+
+\cvline{2017 [14]}{\textit{Systematic challenges for future gravitational wave measurements of precessing binary black holes}, Phys. Rev. D 96, 124041\newline
+A. R. Williamson, J. Lange, R. O'Shaughnessy, J. A. Clark, \textbf{P. Kumar}, J. Calderón Bustillo, J. Veitch}
+
+\cvline{2017 [620]}{\textit{GW170608: Observation of a 19-solar-mass Binary Black Hole Coalescence}, Astrophys.J. 851, L35\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017 [26]}{\textit{A Parameter Estimation Method that Directly Compares Gravitational Wave Observations to Numerical Relativity}, Phys. Rev. D 96, 104041\newline
+Jacob Lange, Richard O'Shaughnessy, Michael Boyle, Juan Calderón Bustillo, Manuela Campanelli, Tony Chu, James A. Clark, Nicholas Demos, Heather Fong, James Healy, Daniel Hemberger, Ian Hinder, Karan Jani, Bhavesh Khamesra, Lawrence E. Kidder, \textbf{Prayush Kumar}, Pablo Laguna, Carlos O. Lousto, Geoffrey Lovelace, Serguei Ossokine, Harald Pfeiffer, Mark A. Scheel, Deirdre Shoemaker, Bela Szilagyi, Saul Teukolsky, Yosef Zlochower}
+
+\cvline{2017 [996]}{\textit{Gravitational Waves and Gamma-Rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A}, Astrophys.J. 848, L13\newline
+The LIGO Scientific Collaboration and The Virgo Collaboration, The 1M2H Collaboration,	The Dark Energy Camera GW-EM Collaboration and the DES Collaboration, The DLT40 Collaboration, The Las Cumbres Observatory Collaboration, The VINROUGE Collaboration	\& The MASTER Collaboration}
+
+\cvline{2017 [335]}{\textit{A gravitational-wave standard siren measurement of the Hubble constant}, Nature 551 no.7678, 85-88\newline
+The LIGO Scientific Collaboration and The Virgo Collaboration, The 1M2H Collaboration,	The Dark Energy Camera GW-EM Collaboration and the DES Collaboration, The DLT40 Collaboration, The Las Cumbres Observatory Collaboration, The VINROUGE Collaboration	\& The MASTER Collaboration}
+
+\cvline{2017 [2652]}{\textit{GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral}, Phys. Rev. Lett. 119 161101\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017 [1047]}{\textit{GW170814: A Three-Detector Observation of Gravitational Waves from a Binary Black Hole Coalescence}, Phys. Rev. Lett. 119 14, 141101\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017 [1391]}{\textit{GW170104: Observation of a 50-Solar-Mass Binary Black Hole Coalescence at Redshift 0.2}, Phys. Rev. Lett. 118 22, 221101\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017 [152]}{\textit{An improved effective-one-body model of spinning, nonprecessing binary black holes for the era of gravitational-wave astrophysics with advanced detectors}, Phys. Rev. D 95, 044028\newline
+A. Bohe, L. Shao, A. Taracchini, A. Buonanno, S. Babak, I. W. Harry, I. Hinder, S. Ossokine, M. P\"{u}rrer, V. Raymond, T. Chu, H. Fong, \textbf{P. Kumar}, H. P. Pfeiffer, M. Boyle, D. A. Hemberger, L. E. Kidder, G. Lovelace, M. A. Scheel, B. Szilágyi}
+
+\cvline{2017 [73]}{\textit{Effects of waveform model systematics on the interpretation of GW150914}, Class. Quantum Grav. 34 104002\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016 [50]}{\textit{Complete waveform model for compact binaries on eccentric orbits}, Phys. Rev. D 95, 024038\newline
+E.~A. Huerta, \textbf{Prayush Kumar}, Bhanu Agarwal, Daniel George, Hsi-Yu Schive, Harald P. Pfeiffer, Tony Chu, Michael Boyle, Daniel A. Hemberger, Lawrence E.~Kidder, Mark A.~Scheel, Bela Szilágyi}
+
+\cvline{2016 [11]}{\textit{Measuring neutron star tidal deformability with Advanced LIGO: a Bayesian analysis of neutron star - black hole binary observations}, Phys. Rev. D 95, 044039\newline
+\textbf{Prayush Kumar}, Michael P\"{u}rrer, Harald P. Pfeiffer}
+
+\cvline{2016 [94]}{\textit{Improved analysis of GW150914 using a fully spin-precessing waveform Model}, Phys.Rev.X 6, 041014\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016 [73]}{\textit{Directly comparing GW150914 with numerical solutions of Einstein's equations for binary black hole coalescence}, Phys.Rev. D94 064035\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016 [1981]}{\textit{GW151226: Observation of Gravitational Waves from a 22-Solar-Mass Binary Black Hole Coalescence}, Phys.Rev.Lett. 116 24, 241103\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016 [55]}{\textit{On the accuracy and precision of numerical waveforms: Effect of waveform extraction methodology}, Class.Quant.Grav. 33 no.16, 165001\newline Tony Chu, Heather Fong, \textbf{Prayush Kumar}, Harald P. Pfeiffer, Michael Boyle, Daniel A. Hemberger, Lawrence E. Kidder, Mark A. Scheel, Bela Szilágyi}
+
+\cvline{2016 [221]}{\textit{GW150914: First results from the search for binary black hole coalescence with Advanced LIGO}, Phys. Rev. D 93, 122003\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016 [457]}{\textit{Properties of the binary black hole merger GW150914}, Phys. Rev. Lett. 116 24, 241102\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016 [719]}{\textit{Tests of general relativity with GW150914}, Phys. Rev. Lett. 116 22, 221101\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016 [28]}{\textit{Accuracy of binary black hole waveform models for aligned-spin binaries}, Phys. Rev. D 93,104050\newline \textbf{Prayush Kumar}, Tony Chu, Heather Fong, Harald P. Pfeiffer, Michael Boyle, Daniel A. Hemberger, Lawrence E. Kidder, Mark A. Scheel, Bela Szilágyi}
+
+\cvline{2016 [4463]}{\textit{Observation of Gravitational Waves from a Binary Black Hole Merger}, Phys. Rev. Lett. 116 6, 061102\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2015 [31]}{\textit{Accuracy and precision of gravitational-wave models of inspiraling neutron star -- black hole binaries with spin: comparison with numerical relativity in the low-frequency regime}, Phys. Rev. D 92, 102001\newline \textbf{Prayush Kumar},  Kevin Barkett, Swetha Bhagwat, Nousha Afshari, Duncan A. Brown, Geoffrey Lovelace, Mark A. Scheel, Béla Szilágyi}
+
+
+\cvline{2014 [49]}{\textit{Accurate and efficient waveforms for compact binaries on eccentric orbits}, Phys. Rev. D 90, 084016\newline E.~A.~Huerta, \textbf{Prayush Kumar}, Sean T. McWilliams, Richard O’Shaughnessy, and Nicol\'{a}s Yunes}
+
+\cvline{2014 [5]}{\textit{Self-forced evolutions of an implicit rotating source: a natural framework to model comparable and intermediate mass-ratio systems from inspiral through ringdown}, Phys. Rev. D 90, 024024\newline E.~A.~Huerta, \textbf{Prayush Kumar}, Jonathan R. Gair, Sean T. McWilliams}
+
+\cvline{2014 [50]}{\textit{The NINJA-2 project: detecting and characterizing gravitational waveforms modelled using numerical binary black hole simulations},  Class. Quantum Grav. 31 115004, \newline
+NINJA-2 and LIGO-Virgo Collaborations
+}% \newline
+
+\cvline{2013 [12]}{\textit{Template Banks for Binary black hole searches with Numerical Relativity waveforms}, Phys. Rev. D 89, 042002  \newline
+\textbf{Prayush Kumar}, Ilana MacDonald, Duncan A Brown, Harald P Pfeiffer, Kipp Cannon, Michael Boyle, Lawrence E Kidder, Abdul H Mroue, Mark A Scheel, Bela Szilágyi, Anil Zenginoglu
+}% \newline
+
+\cvline{2013 [41]}{\textit{Template banks to search for low-mass binary black holes in advanced gravitational-wave detectors}, Phys. Rev. D 87, 082004 \newline
+Duncan A. Brown, \textbf{Prayush Kumar}, and Alexander H. Nitz
+}% \newline
+% Searches for detection of gravitational-waves from binary black-holes (BBHs) employed discrete banks of Post-Newtonian templates, in the initial LIGO era. These banks were constructed using Owen-Sathya bank placement metric. We investigate the efficacy of the metric, which is accurate to 2PN order, in placing a bank of Effective-One-Body (EOB) waveform templates. We also investigate the viability of using similar Taylor F2 template banks to search for gravitational waves from stellar-mass BBHs in aLIGO. Also, we investigate the effect of ignoring sub-leading order waveform multipoles in search templates, modeled using the EOB approximant.}
+
+\cvline{2012 [11]}{\textit{Accurate modeling of intermediate-mass-ratio inspirals: exploring the form of the self-force in the intermediate-mass-ratio regime}, Phys. Rev. D 86, 024024.\newline
+E.A. Huerta, \textbf{Prayush Kumar} and Duncan A. Brown
+}%\newline
+%In this paper we develop a waveform model that accurately reproduces the dynamical evolution of %intermediate-mass-ratio inspirals, as predicted by the effective-one-body (EOB) model introduced in [1], and which enables us to shed some light on the form of the self-force for events with mass-ratio 1:6, 1:10 and 1:100. To complement this study, we make use of self-force results in the extreme-mass-ratio regime, and of predictions of the EOB model introduced in [1], to derive a prescription for the shift of the orbital frequency at the innermost stable circular orbit which consistently captures predictions from the extreme, intermediate and comparable mass-ratio regimes.}
+
+\cvline{2012 [114]}{\textit{Search for gravitational waves associated with gamma-ray bursts during LIGO science run 6 and Virgo science runs 2 and 3},  Astrophys J 760 12.\newline
+Abadie, J., \etal\newline
+}% \newline
+%  My contribution to this collaborative work involved running a modeled search for coalescences of either two neutron stars or a neutron star and black hole, for one of the 154 gamma-ray-bursts that were searched for.}
+
+
+% ###################################################
+% ###################################################
+\cvline{}{\textbf{\textit{\textcolor{purple}{Other LIGO Scientific Collaboration Publications where Kumar is an author}}}}
+
+\cvline{2019}{\textit{All-sky search for short gravitational-wave bursts in the second Advanced LIGO and Advanced Virgo run}, Phys. Rev. D 100, 024017 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{Search for sub-solar mass ultracompact binaries in Advanced LIGO's second observing run}, Phys. Rev. Lett. 123, 161102 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{All-sky search for long-duration gravitational-wave transients in the second Advanced LIGO observing run}, Phys. Rev. D 99, 104033 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{Directional limits on persistent gravitational waves using data from Advanced LIGO's first two observing runs}, Phys. Rev. D 100, 062001 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{Search for the isotropic stochastic background using data from Advanced LIGO's second observing run}, Phys. Rev. D 100, 061101 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{All-sky search for continuous gravitational waves from isolated neutron stars using Advanced LIGO O2 data}, Phys. Rev. D 100, 024004 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{Searches for Gravitational Waves from Known Pulsars at Two Harmonics in 2015-2017 LIGO Data}, Astrophysical Journal 879 10 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{Narrow-band search for gravitational waves from known pulsars using the second LIGO observing run}, Phys. Rev. D 99, 122002 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2019}{\textit{Search for gravitational waves from a long-lived remnant of the binary neutron star merger GW170817}, Astrophysical Journal 875:160\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2018}{\textit{A Search for Tensor, Vector, and Scalar Polarizations in the Stochastic Gravitational-Wave Background}, Phys. Rev. Lett. 120, 201102\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2018}{\textit{Full Band All-sky Search for Periodic Gravitational Waves in the O1 LIGO Data}, Phys. Rev. D 97, 102003\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{Constraints on cosmic strings using data from the first Advanced LIGO observing run}, Phys. Rev. D 97, 102002\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{All-sky search for long-duration gravitational wave transients in the first Advanced LIGO observing run}, Class.Quant.Grav. 35, 065009 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{Targeted numerical simulations of binary black holes for GW170104}, Phys.Rev. D97, 064027\newline
+James Healy, Jacob Lange, Richard O'Shaughnessy, Carlos O. Lousto, Manuela Campanelli, Andrew Williamson, Yosef Zlochower, Juan Calderón Bustillo, James A. Clark, Christopher Evans, D. Ferguson, Sudarshan Ghonge, Karan Jani, Bhavesh Khamesra, Pablo Laguna, Deirdre M. Shoemaker, Alyssa Garcia, Michael Boyle, Daniel Hemberger, Lawrence E. Kidder, \textbf{Prayush Kumar}, Geoffrey Lovelace, Harald Pfeiffer, Mark A. Scheel, Saul Teukolsky}
+
+\cvline{2017}{\textit{Search for post-merger gravitational waves from the remnant of the binary neutron star merger GW170817}, Astrophys.J. 851, L16\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{Effects of Data Quality Vetoes on a Search for Compact Binary Coalescences in Advanced LIGO's First Observing Run}, Class.Quant.Grav. 35, 065010 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{Search for High-energy Neutrinos from Binary Neutron Star Merger GW170817 with ANTARES, IceCube, and the Pierre Auger Observatory}, Astrophys.J. 850, L35\newline
+ANTARES, IceCube, Pierre Auger, LIGO Scientific, Virgo Collaborations}
+
+\cvline{2017}{\textit{GW170817: Implications for the Stochastic Gravitational-Wave Background from Compact Binary Coalescences}, 	Phys. Rev. Lett. 120, 091101\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{Estimating the Contribution of Dynamical Ejecta in the Kilonova Associated with GW170817}, Astrophys.J. 850, L39 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{First narrow-band search for continuous gravitational waves from known pulsars in advanced detector data}, Phys. Rev. D 96, 122006\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{First search for nontensorial gravitational waves from known pulsars}, Phys. Rev. Lett. 120, 031104\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{First low-frequency Einstein@Home all-sky search for continuous gravitational waves in Advanced LIGO data}, Phys. Rev. D 96, 122004\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{Search for Gravitational Waves Associated with Gamma-Ray Bursts During the First Advanced LIGO Observing Run and Implications for the Origin of GRB 150906B}, arXiv:1611.07947 / LIGO-P1600298\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{Exploring the Sensitivity of Next Generation Gravitational Wave Detectors}, arXiv:1607.08697 / LIGO-P1600143\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{All-sky search for short gravitational-wave bursts in the first Advanced LIGO run}, Phys. Rev. D 95, 042003\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{Upper Limits on the Stochastic Gravitational-Wave Background from Advanced LIGO's First Observing Run}, Phys. Rev. Lett. 118, 121101\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{On the Progenitor of Binary Neutron Star Merger GW170817}, Astrophys J.~L.\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{All-sky Search for Periodic Gravitational Waves in the O1 LIGO Data}, Phys. Rev. D 96, 062002\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{Upper Limits on Gravitational Waves from Scorpius X-1 from a Model-Based Cross-Correlation Search in Advanced LIGO Data}, Astrophys. J.\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{Search for intermediate mass black hole binaries in the first observing run of Advanced LIGO}, Phys. Rev. D 96, 022001\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{Search for gravitational waves from Scorpius X-1 in the first Advanced LIGO observing run with a hidden Markov model}, Phys. Rev. D 95, 122003\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{Search for High-energy Neutrinos from Gravitational Wave Event GW151226 and Candidate LVT151012 with ANTARES and IceCube}, Phys. Rev. D 96, 022005\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{First search for gravitational waves from known pulsars with Advanced LIGO}, Astrophys. J.\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{Directional limits on persistent gravitational waves from Advanced LIGO's first observing run}, Phys. Rev. Lett. 118, 121102\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2017}{\textit{Calibration of the Advanced LIGO detectors for the discovery of the binary black-hole merger GW150914}, Phys. Rev. D 95, 062003\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{Results of the deepest all-sky survey for continuous gravitational waves on LIGO S6 data running on the Einstein@Home volunteer distributed computing project}, Phys. Rev. D 94, 102002\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{The Rate of Binary Black Hole Mergers Inferred from Advanced LIGO Observations Surrounding GW150914}, Astrophys. J.L. 833 1, L1\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{The basic physics of the binary black hole merger GW150914}, Annalen der Physik. (2016)\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{Upper limits on the rates of binary neutron star and neutron-star--black-hole mergers from Advanced LIGO's first observing run}, Astrophys.J.L. 832, 2\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{Binary Black Hole Mergers in the first Advanced LIGO Observing Run}, Phys. Rev. X 6, 041015\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{GW150914: Implications for the stochastic gravitational wave background from binary black holes}, Phys.Rev.Lett. 116 13, 131102\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{High-energy Neutrino follow-up search of Gravitational Wave Event GW150914 with ANTARES and IceCube}, Phys.Rev. D93 12, 122010\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{Localization and broadband follow-up of the gravitational-wave transient GW150914}, Astrophys.J. 826 1, L13\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{Sensitivity of the Advanced LIGO detectors at the beginning of gravitational wave astronomy}, Phys.Rev. D93 11, 112004\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{Characterization of transient noise in Advanced LIGO relevant to gravitational wave signal GW150914}, Class.Quant.Grav. 33 13, 134001\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{Observing gravitational-wave transient GW150914 with minimal assumptions}, Phys. Rev. D 93, 122004\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{Astrophysical Implications of the Binary Black-Hole Merger GW150914}, Astrophys JL, 818, L22\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{Prospects for Observing and Localizing Gravitational-Wave Transients with Advanced LIGO and Advanced Virgo}, Living Reviews in Relativity 19, 1\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{GW150914: The Advanced LIGO Detectors in the Era of First Discoveries}, Phys. Rev. Lett. 116, 131103\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{All-sky search for long-duration gravitational wave transients with initial LIGO}, Phys. Rev. D 93, 042005\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{First low frequency all-sky search for continuous gravitational wave signals}, Phys. Rev. D 93, 042007\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2016}{\textit{A search of the Orion spur for continuous gravitational waves using a "loosely coherent" algorithm on data from LIGO interferometers}, Phys. Rev. D 93, 042006\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2015}{\textit{A directed search for gravitational waves from Scorpius X-1 with initial LIGO}, Phys. Rev. D 91, 062008\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2015}{\textit{Searching for stochastic gravitational waves using data from the two co-located LIGO Hanford detectors}, Phys. Rev. D 91, 022003\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2015}{\textit{Advanced LIGO}, Class.Quant.Grav. 32 074001\newline
+the LIGO Scientific Collaboration}
+
+\cvline{2015}{\textit{Characterization of the LIGO detectors during their sixth science run}, Class.Quant.Grav. 32 no.11, 115012\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2015}{\textit{Searching for stochastic gravitational waves using data from the two co-located LIGO Hanford detectors}, Phys. Rev. D 91:022003\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2014}{\textit{Improved Upper Limits on the Stochastic Gravitational-Wave Background from 2009-2010 LIGO and Virgo Data}, Phys. Rev. Lett. 113, 231101\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2014}{\textit{First all-sky search for continuous gravitational waves from unknown sources in binary systems}, Phys. Rev. D 90:062010\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2014}{\textit{Search for gravitational radiation from intermediate mass black hole binaries in data from the second LIGO-Virgo joint science run}, Phys. Rev. D 89:122003\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2014}{\textit{Search for gravitational waves associated with gamma-ray bursts detected by the InterPlanetary Network}, Phys. Rev. Lett. 113:011102\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2014}{\textit{Search for gravitational wave ringdowns from perturbed intermediate mass black holes in LIGO-Virgo data from 2005-2010}, Phys. Rev. D 89:102006\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2014}{\textit{Implementation of an FF-statistic all-sky search for continuous gravitational waves in Virgo VSR1 data}, Class.Quant.Grav. 31 165014 \newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2014}{\textit{Constraints on Cosmic Strings from the LIGO-Virgo Gravitational-Wave Detectors}, Phys. Rev. Lett. 112, 131101\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2014}{\textit{Application of a Hough search for continuous gravitational waves on data from the fifth LIGO science run}, Class.Quant.Grav. 31 085014\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2014}{\textit{First Searches for Optical Counterparts to Gravitational-wave Candidate Events}, Astrophys JS 211 7\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+
+\cvline{2013}{\textit{Search for long-lived gravitational-wave transients coincident with long gamma-ray bursts}, Phys. Rev. D 88, 122004\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2013}{\textit{Directed search for continuous gravitational waves from the Galactic center}, Phys. Rev. D 88, 102002\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+
+\cvline{2013}{\textit{Parameter estimation for compact binary coalescence signals with the first generation gravitational-wave detector network}, Phys. Rev. D.88:062001\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2013}{\textit{Search for Gravitational Waves from Binary Black Hole Inspiral, Merger and Ringdown in LIGO-Virgo Data from 2009-2010}, Phys. Rev. D.87:022002\newline
+Aasi, J, \etal}
+
+\cvline{2013}{\textit{Einstein@Home all-sky search for periodic gravitational waves in LIGO S5 data
+}, Phys. Rev. D.87:042001\newline
+the LIGO Scientific Collaboration, the Virgo Collaboration}
+
+\cvline{2013}{\textit{A first search for coincident gravitational waves and high energy neutrinos using LIGO, Virgo and ANTARES data from 2007}, JCAP 06 008\newline
+Adrian-Martinez, S., \etal}
+
+% \cvline{2013}{\textit{Enhanced sensitivity of the LIGO gravitational wave detector by using squeezed states of light}, Nature Photonics 7, 613-619\newline
+% Aasi, J, \etal}
+
+\cvline{2012}{\textit{The characterization of Virgo data and its impact on gravitational-wave searches}, Class.Quant.Grav. 29 155002 \newline
+Aasi, J, \etal}
+
+
+\cvline{2012}{\textit{Swift follow-up observations of candidate gravitational-wave transient events
+}, Astrophys JS, 203, 28\newline
+Evans, P.A., \etal
+\newline}
+
+% \newpage
+\cvline{}{\textbf{\textit{ Conference Publications}}}
+
+\cvline{2009}{\textit{Hardware Implementation of Dlighting Module for using it in a Digital Camera Chip}, $13^\mathrm{th}$ IEEE / VSI VLSI Design and Test Symposium \newline
+Gaurav Agarwal, Amit Singhal, Anu Gupta and \textbf{Prayush Kumar}\newline
+}%\newline (Short paper) 13th IEEE / VSI VLSI Design and Test Symposium, VDAT 2009\newline
+%This ongoing project involved designing and implementing the D-lighting module of the processor for a digital camera chip. My work included developing an algorithm for de-mosaicing images and D-Lighting, and implementing it on Verilog HDL (Xilinx). This work was later implemented on chip and tested.}
+
+% \section{Articles in Preparation}
+% 
+% \cvline{}{\textit{Self-forced evolutions of intermediate mass ratio coalescences from inspiral to ringdown}\newline Eliu Huerta, \textbf{Prayush Kumar} and Jonathan Gair}
+
+% \cvline{2012 --}{Detecting gravitational-waves from BBHs in advanced LIGO era. Using the search pipelines on the detector data, with current focus on stellar-mass black holes.}
+
+
+% % \section{Graduate Coursework}
+% % \cvline{2009 -- 2011}{Methods of Mathematical Physics, Classical Mechanics, Theory of Relativity, Thermodynamics \& Statistical Mechanics, Advanced Electromagnetic Theory, Quantum Mechanics-I \& II, Advanced Topics in Quantum Field Theory} 
+
+
+\section{Invited Presentations}
+\cventry{Aug 2019}{Binary black hole source modeling using numerical relativity: Status \& Challenges}{Future of Gravitational-wave Astronomy}{International Center for Theoretical Sciences (ICTS)}{Bangalore, India}{}
+\cventry{Sep 2018}{Measuring the neutron star tidal deformability with equation-of-state-independent relations and gravitational waves}{Astrophysics Lunch}{Cornell Center for Astrophysics and Planetary Science, Cornell University}{Ithaca, NY}{}
+\cventry{Oct 2018}{Numerical simulations of binary black holes and Gravitational Wave Science}{Fundamental Theory Seminar}{Department of Physics, Pennsylvania State University}{College Park, PA}{}
+\cventry{Sep 2018}{Measuring the neutron star tidal deformability with equation-of-state-independent relations and gravitational waves}{Astrophysics Lunch}{Cornell Center for Astrophysics and Planetary Science, Cornell University}{Ithaca, NY}{}
+\cventry{Jun 2018}{Numerical simulations of binary black holes \& Advanced LIGO science}{Invited Colloquium}{International Center for Theoretical Astrophysics}{Bangalore, India}{}
+\cventry{May 2018}{Numerical simulations of binary black holes \& Advanced LIGO science}{Invited Colloquium}{Inter-University Center for Astronomy \& Astrophysics}{Pune, India}{}
+\cventry{Apr 2018}{On direct applications of Numerical Relativity to gravitational-wave astrophysics}{Astrophysics Lunch}{Cornell Center for Astrophysics and Planetary Science, Cornell University}{Ithaca, NY}{}
+\cventry{Mar 2018}{Lessons learned from Advanced LIGO: a quick primer}{Invited Presentation}{Instituto de F\'isica Te\'orica, International Center for Theoretical Physics}{Sao Paulo, Brazil}{}
+\cventry{Jan 2018}{Waveform modeling for LIGO parameter estimation: status \& challenges for LISA}{Invited Presentation, The Architecture of LISA Science Analysis: Imagining the Future}{Keck Institute for Space Studies, California Institute of Technology}{Pasadena, CA}{}
+\cventry{Oct 2017}{Neutron stars merge with a burst: GW170817}{Astrophysics Lunch}{Cornell Center for Astrophysics and Planetary Science, Cornell University}{Ithaca, NY}{}
+\cventry{Jul 2016}{PyCBC: Hands On}{Invited Seminar, Summer School On Gravitational-Wave Astronomy}{International Center for Theoretical Sciences (ICTS)}{Bangalore, India}{}
+\cventry{Jul 2016}{Binary Black Hole Simulations and Advanced LIGO}{Invited Seminar}{International Center for Theoretical Sciences (ICTS)}{Bangalore, India}{}
+\cventry{Jun 2016}{Numerical Relativity and Advanced LIGO}{Astrophysics Panel Discussion}{Compute Canada's High Performance Computing Symposium (HPCS)}{Edmonton, Alberta}{}
+\cventry{Jun 2016}{Binary Black Hole Simulations and Advanced LIGO}{Invited Presentation in Astrophysics Panel}{Compute Canada's High Performance Computing Symposium (HPCS)}{Edmonton, Alberta}{}
+\cventry{Feb 2016}{Gravitational-wave searches for compact binaries with Advanced LIGO \& the role of Numerical Relativity}{Invited Seminar}{Georgia Institute of Technology, Atlanta, GA}{}{}
+
+\section{Conference Presentations}
+\cventry{Apr 2018}{Harmonic coordinates in binary black hole spacetimes}{April Meeting, American Physical Society}{Columbus, OH}{}{}
+\cventry{Oct 2016}{Measuring the tidal deformability of neutron stars from GW observations of disruptive neutron star - black hole binaries}{Midwest Relativity Meeting}{Perimeter Institute for Theoretical Physics}{Waterloo, ON}{}
+\cventry{Jul 2016}{Measuring the tidal deformability of neutron stars from GW observations of disruptive neutron star - black hole binaries}{Seminar}{International Center for Theoretical Sciences (ICTS)}{Bangalore, India}{}
+\cventry{Jun 2016}{Binary Black Hole Mergers In The First Advanced LIGO Observing Run}{}{CITA, University of Toronto}{Toronto, Ontario}{}
+\cventry{May 2016}{Gravitational wave observation from a binary black hole merger with Advanced LIGO}{Annual Meeting, Canadian Astronomical Society}{Winnipeg, MB}{}{}
+\cventry{Apr 2016}{Gravitational-wave searches for compact binaries with Advanced LIGO \& the role of Numerical Relativity}{April Meeting, American Physical Society}{Salt Lake City, UT}{}{}
+\cventry{Dec 2015}{Binary black hole waveform models accuracy for Advanced LIGO}{International Conference on Gravitation and Cosmology}{Indian Institute of Science Education \& Research, Mohali, India}{}{}
+\cventry{May 2015}{Accuracy of Binary-Black-hole waveforms for Advanced LIGO}{Eastern Gravity Meeting}{Rochester Institute of Technology, Rochester, NY}{}{}
+\cventry{Apr 2015}{Accuracy of Neutron-Star Black-hole waveforms for Advanced LIGO}{April Meeting, American Physical Society}{Baltimore, MD}{}{}
+\cventry{Aug 2014}{Accuracy of gravitational-wave models for spinning non-precessing Neutron-Star Black-Hole Binaries}{Numerical and Analytical Relativity and Data Analysis (NARDA) Meeting}{California State University, Fullerton, CA}{}{Poster presentation}
+\cventry{Dec 2013}{Numerical Relativity waveforms in Advanced LIGO searches for Binary Black Holes}{XXVII Texas Symposium on Relativistic Astrophysics}{Dallas, TX}{}{Poster presentation}
+% 
+\cventry{Sep 2013}{Binary black hole template banks with Numerical Relativity waveforms}{Numerical Relativity-Data Analysis (NRDA) Meeting}{Universitat de les Illes Balears, Mallorca, Spain}{}{}
+\cventry{Jul 2013}{Constructing Numerical Relativity template banks for binary BBH searches in Advanced LIGO era}{16th Eastern Gravity Meeting, University of Toronto}{Toronto, ON}{}{}
+\cventry{Apr 2013}{Constructing binary black hole template banks using numerical relativity waveforms}{April Meeting, American Physical Society}{Denver, CO}{}{}
+\cventry{Aug 2012}{Searching for Gravitational Waves from Non-Spinning Stellar-Mass Binary-Black-Holes using EOBNR and Taylor F2 Waveforms in the Advanced Detector Era}{Rattle and Shine: Gravitational Wave and Electromagnetic Studies of Compact Binary Mergers}{Kavli Institute for Theoretical Physics, University of California-Santa Barbara, CA}{}{Poster presentation.}
+\cventry{Apr 2012}{Model waveform templates to use to search for gravitational waves in Advanced LIGO era.}{15th East Coast Gravity Meeting}{Syracuse University}{Syracuse, NY}{}
+
+%%% POSTERS
+\cventry{Mar 2012}{Development of search templates for non-spinning black hole binaries of mass ratio 1:10}{LSC-Virgo Meeting}{Massachusetts Institute of Technology}{Boston, MA}{Poster presentation.}
+\cventry{Mar 2012}{Searching for Binary-Black-Holes using EOB and SPA waveforms in the advanced detector era}{LSC-Virgo Meeting}{Massachusetts Institute of Technology}{Boston, MA}{Poster presentation.}
+
+%\section{Publications}
+%% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+%\nocite{HuertaKumarBrownIMRISF}
+%\bibliographystyle{plain}
+%\bibliography{publications_prayush}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{HuertaKumarBrownIMRISF}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications_prayush}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+
+\section{Service}
+\cventry{2019}{Proprosal referee for Astrophysics Theory Program (ATP)}{ National Aeronautics and Space Administration (NASA)}{}{}{}
+\cventry{2019--present}{Scientific referee for European Physical Journal C}{Springer Nature}{[IF: 4.48]}{}{}
+\cventry{2018--present}{Scientific referee for Physical Review Letters}{American Physical Society}{[IF: 9.23]}{}{}
+\cventry{2018--present}{Scientific referee for Physical Review D}{American Physical Society}{[IF: 4.37]}{}{}
+\cventry{2017--present}{Proprosal referee for Physical Review D}{Swiss National Science Foundation (SNF)}{}{}{}
+\cventry{2012--present}{Internal publication referee}{LIGO Scientific Collaboration (LSC)}{}{}{}
+
+
+\section{Affiliations}
+\cventry{2014--present}{Simulating eXtreme Spacetimes Collaboration}{}{}{}{}
+\cventry{2015--2017}{Canadian Astronomical Society}{}{}{}{}
+\cventry{2011--present}{Numerical INJection Analysis Collaboration}{}{}{}{}
+\cventry{2011--present}{Numerical Relativity - Analytical Relativity Collaboration}{}{}{}{}
+\cventry{2011--present}{American Physical Society}{}{}{}{}
+\cventry{2010--present}{LIGO Scientific Collaboration}{}{}{\newline Compact Binary Coalescence Group}{}
+
+
+\section{Programming skills}
+\cventry{Numerical}{Extensive experience in: C/C++, Python, MATLAB}{}{}{}{}
+% \cvcomputer{Numerical}{Extensive Experience in }{}{C/C++, Python, MATLAB}
+% \cvcomputer{Analytical}{Mathematica}{}{}
+\cventry{Analytical}{Mathematica}{}{}{}{}
+% \cventry{$\mu$-processors}{80x86 Assembly language}{}{}{}{}
+% \cventry{VLSI design}{Verilog HDL, Xilinx, ELDO SPICE, Cadence tools, Virtuoso Environment}{}{}{}{}
+% \cventry{Analog design}{Altium designer}{}{}{}{}
+\cventry{Other}{80x86 Assembly language, LabView}{}{}{}{}
+\cventry{Operating Systems}{Linux, Mac OS}{}{}{}{}
+
+
+\section{Student Supervision}
+\subsection{\textit{Graduate}}
+\cventry{2018--present}{Gabriel Bonilla, graduate student, Cornell University}{}{}{}{}
+\cventry{2017--present}{Eamonn O'Shea, graduate student, Cornell University}{}{}{}{}
+% \cventry{2016--2017}{Abhirup Ghosh, graduate student, International Center for Theoretical Sciences (ICTS), Bangalore, India}{}{}{}{}
+\cventry{2014--present}{Heather Fong, graduate student, CITA, University of Toronto}{\newline One article published in Phys. Rev. D, another published in Class. \& Quant. Gravity}{}{}{co-supervised with Prof. Harald P. Pfeiffer}
+\cventry{2014--2015}{Swetha Bhagwat, graduate student, Syracuse University}{\newline One article published in Phys. Rev. D}{}{}{co-supervised with Prof. Duncan A. Brown}
+\vspace{2mm}
+\subsection{\textit{Undergraduate}}
+\cventry{2017--present}{Jaykumar Patel, Summer Undergraduate Research Fellow, CITA, University of Toronto}{Article in preparation.}{}{}{}
+\cventry{2016--2017}{Aliya Babul, Summer Undergraduate Research Fellow, CITA, University of Toronto}{}{}{}{}
+
+
+
+\section{Outreach}
+\cventry{Oct 2017}{Published interview: Discovery of binary neutron stars \& the role of Cornell}{\newline Cornell Sun, Ithaca, NY}{}{}{}
+\cventry{Sep 2016}{CITA Jamboree}{Talk: Detecting gravitational waves with LIGO: role of Numerical Relativity}{}{}{}
+\cventry{Jun 2016}{Published interview: Discovery of Gravitational Waves \& the role of CITA}{\newline Hindustan Times, Lucknow, India}{}{}{}
+\cventry{Feb 2016}{Published interview: Discovery of Gravitational Waves \& its implications}{\newline Scholars’ Avenue, Indian Institute of Technology, Kharagpur, India}{}{}{}
+\cventry{Feb 2016}{Published/Broadcast interview: Discovery of Gravitational Waves and the role of CITA}{Canadian Broadcasting Corporation, Toronto, ON}{}{}{}
+% 
+\cventry{Sep 2015}{CITA Jamboree}{Talk: Gravitational-waves \& Binary black holes: Advanced LIGO}{}{}{}
+\cventry{Sep 2014}{CITA Jamboree}{Talk: Gravitational-waves \& Advanced LIGO}{}{}{}
+\cventry{2012}{Undergraduate Research Day, Syracuse University}{}{}{\newline Volunteered to organize an important graduate recruitment event. Led groups of students through tours of laboratories in the Physics department}{}
+
+\cventry{2005--2007}{NIRMAAN - Education initiative, Pilani, Rajasthan, India}{}{}{\newline Taught basic Sciences to under-privileged children, at the secondary and senior-secondary level, in the rural neighborhood of Pilani}{}
+
+% \section{Social Outreach}
+\cventry{2009, 2011}{Social initiative. Hardoi, Uttar Pradesh, India}{}{}{\newline Worked with the ASHA Ashram foundation to investigate undue irrigation tax collection (2009) and misappropriation of rations (2011) in 10 villages. An appeal was made to the State government, and corrective action taken}{}
+
+
+
+\section{Languages}
+\cventry{Proficient}{English, Hindi}{}{}{}{}
+\cventry{Basic}{Sanskrit}{}{}{}{}
+\section{References}
+\cventry{}{[Available on request]}{}{}{}{}\vspace*{2mm}
+% \cventry{}{Saul A. Teukolsky}{\newline Hans A. Bethe Professor of Physics and Astrophysics}{\newline Cornell Center for Astrophysics \& Planetary Science,\newline Cornell University}{Ithaca, NY 14853}{}\vspace*{-1mm}
+% \cventry{}{and}{Robinson Professor of Theoretical Astrophysics}{\newline Division of Physics, Mathematics \& Astronomy,\newline California Institute of Technology}{Pasadena, CA 91125}{saul@astro.cornell.edu\newline}
+% \cventry{}{Harald P. Pfeiffer}{Group leader “Numerical Relativity”}{\newline Astrophysical and Cosmological Relativity Division,\newline Max-Planck-Institut für Gravitationsphysik (Albert-Einstein-Institut)}{\newline Potsdam-Golm, Germany}{harald.pfeiffer@aei.mpg.de\newline}
+% \cventry{}{Duncan A. Brown}{Charles Brightman Professor of Physics}{\newline Syracuse University}{Syracuse, NY 13244}{dabrown@syr.edu\newline}
+% \cventry{}{Peter Saulson}{Martin A. Pomerantz '37 Professor of Physics}{\newline Syracuse University}{Syracuse, NY 13244}{psaulson@syr.edu\newline}
+% \cventry{}{Mark Scheel}{Research Professor}{\newline Theoretical AstroPhysics Including Relativity and Cosmology (TAPIR)\newline California Institute of Technology}{Pasadena CA, 91125}{scheel@tapir.caltech.edu\newline}
+
+% \cventry{}{Alessandra Buonanno}{Director}{\newline Max-Planck-Institut für Gravitationsphysik (Albert-Einstein-Institut)}{\newline Potsdam-Golm, Germany}{alessandra.buonanno@aei.mpg.de\newline}
+% \cventry{}{Badri Krishnan}{Research Group Leader}{\newline Division of Observational Relativity and Cosmology,\newline Max Planck Institute for Gravitational Physics}{Hannover, Germany}{badri.krishnan@aei.mpg.de\newline}
+% % \cventry{}{Alan Weinstein}{Professor}{\newline California Institute of Technology}{Pasadena CA, 91125}{ajw@ligo.caltech.edu\newline}
+% \cventry{}{Eliu A. Huerta}{Relativity Group Lead}{\newline National Center for Supercomputing Applications\newline University of Illinois at Urbana-Champaign}{Urbana-Champaign, IL 61801}{elihu@illinois edu\newline}
+% \cventry{}{Anu Gupta}{Associate Professor}{\newline Birla Institute of Technology \& Science-Pilani}{Pilani, India}{anug@bits-pilani.ac.in}
+
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
