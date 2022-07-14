@@ -7,8 +7,9 @@
  - Google Scholar profile: [here](https://scholar.google.com/citations?user=ZMe6TG0AAAAJ&hl=en)
 
 ## Employment & Contact Information
-Research Associate  <br />
-604 Space Sciences Building  <br />
-Cornell Center for Astronomy & Planetary Sciences  <br />
-Cornell University  <br />
-Ithaca, NY 14853  <br />
+Assistant Professor (Reader F) <br />
+G-306, 
+International Centre for Theoretical Sciences <br />
+Survey No. 151, Shivakote <br />
+Hesaraghatta Hobli <br />
+Bengaluru - 560 089, India. <br />
